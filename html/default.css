@@ -1,0 +1,146 @@
+@font-face {
+  font-family: 'blackmarketfont';
+  src: url('fonts/QuentinCaps.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'blackmarketButtons';
+  src: url('fonts/OldTownRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.container {
+  background-image: url('images/background.png');
+  background-size: cover;
+  width: 65%;
+  height: 65%;
+  position: absolute;
+}
+
+.shop-header {
+  background: transparent;
+  border: none;
+  left: 10vh;
+  top: 1.0vh;
+  width: 83%;
+  height: 18%;
+  position: relative;
+}
+
+.title-header {
+  background: transparent;
+  border: none;
+  color: black;
+  width: 100%;
+  height: 50%;
+  position: relative;
+}
+
+.header-buttons {
+  background: transparent;
+  border: none;
+  color: black;
+  top: -2.5vh;
+  width: 100%;
+  height: 45%;
+  position: relative;
+}
+
+.header-btn {
+  background: transparent;
+  border: none;
+  border-radius: 4px;
+  top: 15%;
+  width: 150px;
+  height: 40px;
+  font-size: 35px;
+  margin: 2px 2px;
+  font-family: 'blackmarketButtons';
+  cursor: pointer;
+  position: relative;
+}
+.header-btn:hover {
+  background: rgb(205, 206, 183);
+  transform: scale(1.02);
+}
+
+.shop-content {
+  background: transparent;
+  border: none;
+  top: 1vh;
+  left: 10.05vh;
+  width: 83%;
+  height: 76%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: start;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+}
+
+.blackmarket-title {
+  font-family: 'blackmarketfont';
+}
+
+.item-element {
+  background: rgba(255, 255, 255, 0.1);
+  border: 2.5px ridge rgba(94, 94, 94, 0.8);
+  width: 128px;
+  height: 128px;
+  margin: 2px 2px;
+  position: relative;
+}
+
+.item-image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.contextmenu {
+  background: rgb(107, 107, 107);
+  border: 2.5px ridge rgba(49, 47, 47, 0.8);
+  width: 300px;
+  height: 125px;
+  z-index: 1000;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: start;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.context-btn {
+  background: transparent;
+  border: none;
+  width: 100px;
+  height: 25px;
+  margin: 5px 5px;
+  font-family: 'blackmarketButtons';
+  font-size: 24px;
+  position: relative;
+}
+.context-btn:hover {
+  background: rgb(143, 142, 142);
+  transform: scale(1.02);
+}
