@@ -29,7 +29,7 @@ Config.Locations = {
             {
                 label = 'Jewelry Box',
                 name = 'jewelry_box',
-                image = 'provision_jewelry_box',
+                image = 'provision_jewelry_box', -- Only needed if the name of the image is different to the item name! DO NOT ADD THE EXTENSION!
                 amount = 5,
                 price = 25,
             },
