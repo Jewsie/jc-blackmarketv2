@@ -1,5 +1,6 @@
 # jc-blackmarketv2
 A newer and updated blackmarket script for the RedM RSG Framework
+[Discord Support](https://discord.gg/uFVYG6UJaM)
 
 ## Resume ##
 So since there's been a new update, and I haven't exactly been back at RedM for the most part, but since the previous blackmarket script was widely successful and seems like people really liked the remake and compatible one made by the great @rms_dnb 
