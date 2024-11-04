@@ -44,7 +44,12 @@ Citizen.CreateThread(function()
                 end
             end
         else
-            RSGCore.Functions.Notify('You don\'t have enough money to buy this item or amount!', 'error', 3000)
+            lib.notify({
+                title = 'No money',
+                description = 'You don\'t have enough money to buy this item or amount!',
+                showDuration = true,
+                type = 'error',
+            })
             return
         end
     end)
@@ -63,7 +68,12 @@ Citizen.CreateThread(function()
                 end
             end
         else
-            RSGCore.Functions.Notify('You don\'t have this many items to sell!', 'error', 3000)
+            lib.notify({
+                title = 'Not Enough',
+                description = 'You don\'t have this many items to sell!',
+                showDuration = true,
+                type = 'error',
+            })
             return
         end
     end)
