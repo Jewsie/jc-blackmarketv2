@@ -1,4 +1,4 @@
-# [ jc-blackmarketv2 ]
+# [jc-blackmarketv2]
 A newer and updated blackmarket script for the RedM RSG Framework
 [Discord Support](https://discord.gg/uFVYG6UJaM)
 
